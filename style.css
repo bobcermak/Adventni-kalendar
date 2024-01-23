@@ -1,7 +1,7 @@
 body {
-    background: #3a6186;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+    background: linear-gradient(to right, #89253e, #3a6186); 
 }
 
 
@@ -14,9 +14,9 @@ body {
 
 
 .nav-bar {
-    background: #e96443;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e96443;  
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+    background: linear-gradient(to right, #904e95, #e96443); 
     position: relative;
     border: 0px solid;
     height: 130px;
@@ -68,7 +68,7 @@ body {
 
 .dny {
     position: relative;
-    border: 0px solid;
+    border: 2px solid;
     height: 900px;
 }
 
@@ -88,9 +88,9 @@ body {
     margin-left: 37%;
     margin-top: 1%;
     border-radius: 20px;
-    background: #e96443;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e96443;  
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+    background: linear-gradient(to right, #904e95, #e96443); 
 
 }
 
