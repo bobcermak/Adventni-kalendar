@@ -96,14 +96,15 @@ body {
 
 
 .tlacitka {
-    position: relative;
-    border: 2px solid;
+    position: absolute;
+    border: 0px solid;
     height: 700px;
     width: 900px;
     margin-left: 26.5%;
     margin-top: 1%;
     display: flex;
     justify-content: center;
+    align-items: start;
     text-decoration: none;
     
 }
@@ -113,7 +114,6 @@ body {
 }
 
 button {
-  align-items: center;
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
   border: 0;
   border-radius: 10px;
@@ -167,3 +167,263 @@ button:hover span {
     line-height: 50px;
   }
 }
+
+
+/*Tlacitka-div-1*/
+
+.tlac1 {
+  border: 0px solid;
+  position: absolute;
+  width: 900px;
+  height: 175px;
+  
+}
+
+.tlac1 .button-71 {
+  position: absolute;
+  left: 6%;
+  top: 33%;
+}
+
+
+.tlac1 .button-72 {
+  position: absolute;
+  left: 19%;
+  top: 33%;
+}
+
+.tlac1 .button-73 {
+  position: absolute;
+  left: 32%;
+  top: 33%;
+}
+
+.tlac1 .button-74 {
+  position: absolute;
+  left: 45%;
+  top: 33%;
+}
+
+.tlac1 .button-75 {
+  position: absolute;
+  left: 58%;
+  top: 33%;
+}
+
+.tlac1 .button-76 {
+  position: absolute;
+  left: 71%;
+  top: 33%;
+}
+
+.tlac1 .button-77 {
+  position: absolute;
+  left: 84%;
+  top: 33%;
+}
+
+
+
+/*Tlacitka-div-2*/
+
+.tlac2 {
+  border: 0px solid red;
+  position: absolute;
+  width: 900px;
+  height: 175px;
+  margin-top: 19.5%;
+  
+}
+
+.tlac2 .button-78 {
+  position: absolute;
+  left: 5%;
+  top: 33%;
+}
+
+
+.tlac2 .button-79 {
+  position: absolute;
+  left: 18%;
+  top: 33%;
+}
+
+.tlac2 .button-80 {
+  position: absolute;
+  left: 31%;
+  top: 33%;
+}
+
+.tlac2 .button-81 {
+  position: absolute;
+  left: 44%;
+  top: 33%;
+}
+
+.tlac2 .button-82 {
+  position: absolute;
+  left: 57%;
+  top: 33%;
+}
+
+.tlac2 .button-83 {
+  position: absolute;
+  left: 70%;
+  top: 33%;
+}
+
+.tlac2 .button-84 {
+  position: absolute;
+  left: 83%;
+  top: 33%;
+}
+
+
+
+
+/*Tlacitka-div-3*/
+
+.tlac3 {
+  border: 0px solid rgb(160, 103, 103);
+  position: absolute;
+  width: 900px;
+  height: 175px;
+  margin-top: 39%;
+  
+}
+
+.tlac3 .button-85 {
+  position: absolute;
+  left: 5%;
+  top: 33%;
+}
+
+
+.tlac3 .button-86 {
+  position: absolute;
+  left: 18%;
+  top: 33%;
+}
+
+.tlac3 .button-87 {
+  position: absolute;
+  left: 31%;
+  top: 33%;
+}
+
+.tlac3 .button-88 {
+  position: absolute;
+  left: 44%;
+  top: 33%;
+}
+
+.tlac3 .button-89 {
+  position: absolute;
+  left: 57%;
+  top: 33%;
+}
+
+.tlac3 .button-90 {
+  position: absolute;
+  left: 70%;
+  top: 33%;
+}
+
+.tlac3 .button-91 {
+  position: absolute;
+  left: 83%;
+  top: 33%;
+}
+
+
+
+
+
+
+/*Tlacitka-div-4*/
+
+.tlac4 {
+  border: 0px solid rgb(105, 134, 117);
+  position: absolute;
+  width: 900px;
+  height: 175px;
+  margin-top: 58.5%;
+  
+}
+
+.tlac4 .button-92 {
+  position: absolute;
+  left: 233px;
+  top: 33%;
+}
+
+
+.tlac4 .button-93 {
+  position: absolute;
+  left: 398px;
+  top: 33%;
+}
+
+.tlac4 .button-94 {
+  position: absolute;
+  right: 233px;
+  top: 33%;
+}
+
+
+.santa {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  height: 400px;
+}
+
+.santa1 {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  height: 400px;
+  transform: rotateY(150deg);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
