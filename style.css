@@ -425,9 +425,19 @@ footer ul li {
   font-size: 20px;
   color: azure;
   position: absolute;
-  left: 49%;
+  left: 44%;
   top: 30%;
   list-style: none;
+}
+
+.tel {
+  position: absolute;
+  top: 34%;
+}
+
+.email {
+  position: absolute;
+  top: 46%;
 }
 
 
