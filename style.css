@@ -1,123 +1,125 @@
 body {
-    background: #3a6186;  
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
-    background: linear-gradient(to right, #89253e, #3a6186); 
+  background: #3a6186;  
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+  background: linear-gradient(to right, #89253e, #3a6186); 
 }
 
 
 * {
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 
 .nav-bar {
-    background: #e96443;  
-    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
-    background: linear-gradient(to right, #904e95, #e96443); 
-    position: fixed;
-    border: 0px solid;
-    height: 130px;
-    width: 100%;
-    top: 0%;
-    z-index: 100;
+  background: #e96443;  
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+  background: linear-gradient(to right, #904e95, #e96443); 
+  position: fixed;
+  border: 0px solid;
+  height: 130px;
+  width: 100%;
+  top: 0%;
+  z-index: 100;
 }
 
 
 .nav-bar h1 {
-    position: relative;
-    font-size: 50px;
-    color: azure;
-    left: 35%;
-    top: 15%;
+  position: relative;
+  font-size: 50px;
+  color: azure;
+  left: 35%;
+  top: 15%;
 }
 
 .nav-bar p {
-    position: relative;
-    color: azure;
-    font-style: italic;
-    left: 43%;
-    top: 22%;
+  position: relative;
+  color: azure;
+  font-style: italic;
+  left: 43%;
+  top: 22%;
 }
 
 
 .fa-brands {
-    position: absolute;
-    font-size: 40px;
-    color: azure;
+  position: absolute;
+  font-size: 40px;
+  color: azure;
 }
 
 .fa-github {
-    right: 13%;
-    top: 25%;
-    transition: 0.5s all;
+  right: 13%;
+  top: 25%;
+  transition: 0.5s all;
 }
 
 .fa-github:hover {
-    color: blue;
+  color: blue;
 }
 
 .fa-instagram {
-    right: 10%;
-    top: 25%;
-    transition: 0.5s all;
+  right: 10%;
+  top: 25%;
+  transition: 0.5s all;
 }
 
 .fa-instagram:hover {
-    color: #B20D30;
+  color: #B20D30;
 }
 
 .dny {
-    position: relative;
-    border: 0px solid;
-    height: 900px;
-    margin-top: 9%;
+  position: relative;
+  border: 0px solid;
+  height: 900px;
+  margin-top: 9%;
 }
 
 .dny h2 {
-    position: relative;
-    font-size: 30px;
-    color: azure;
-    left: 10%;
-    top: 30%;
+  position: relative;
+  font-size: 30px;
+  color: azure;
+  left: 10%;
+  top: 30%;
 }
 
 .nadpis {
-    position: relative;
-    border: 0px solid;
-    height: 100px;
-    width: 500px;
-    margin-left: 37%;
-    margin-top: 1%;
-    border-radius: 20px;
-    background: #e96443;  
-    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
-    background: linear-gradient(to right, #904e95, #e96443); 
+  position: relative;
+  border: 0px solid;
+  height: 100px;
+  width: 500px;
+  margin-left: 37%;
+  margin-top: 1%;
+  border-radius: 20px;
+  background: #e96443;  
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+  background: linear-gradient(to right, #904e95, #e96443); 
 
 }
+
 
 
 .tlacitka {
-    position: absolute;
-    border: 0px solid;
-    height: 700px;
-    width: 900px;
-    margin-left: 26.5%;
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    text-decoration: none;
-    
+  position: absolute;
+  border: 0px solid;
+  height: 700px;
+  width: 900px;
+  margin-left: 26.5%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-decoration: none;
+  
 }
 
 .tlacitka a {
-    text-decoration: none;
+  text-decoration: none;
+  color: azure;
 }
 
-button {
+.tlacitka p {
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
   border: 0;
   border-radius: 10px;
@@ -141,89 +143,65 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-
+  transition: 0.5s all;
 }
 
-button:active {
-  outline: 0;
+.tlacitka p:hover {
+  transform: scale(1.2);
 }
-
-button:hover {
-  outline: 0;
-}
-
-button span {
-  transition: all 200ms;
-}
-
-button:hover span {
-  transform: scale(.9);
-  opacity: .75;
-}
-
-@media screen and (max-width: 991px) {
-  button{
-    font-size: 15px;
-    height: 50px;
-  }
-
-  button span {
-    line-height: 50px;
-  }
-}
-
 
 /*Tlacitka-div-1*/
 
 .tlac1 {
-  border: 0px solid;
-  position: absolute;
-  width: 900px;
-  height: 175px;
-  
+border: 0px solid;
+position: absolute;
+width: 900px;
+height: 175px;
+
 }
 
 .tlac1 .button-71 {
-  position: absolute;
-  left: 6%;
-  top: 33%;
+position: absolute;
+left: 6%;
+top: 33%;
+
 }
 
 
 .tlac1 .button-72 {
-  position: absolute;
-  left: 19%;
-  top: 33%;
+position: absolute;
+left: 19%;
+top: 33%;
 }
 
 .tlac1 .button-73 {
-  position: absolute;
-  left: 32%;
-  top: 33%;
+position: absolute;
+left: 32%;
+top: 33%;
 }
 
 .tlac1 .button-74 {
-  position: absolute;
-  left: 45%;
-  top: 33%;
+position: absolute;
+left: 45%;
+top: 33%;
 }
 
 .tlac1 .button-75 {
-  position: absolute;
-  left: 58%;
-  top: 33%;
+position: absolute;
+left: 58%;
+top: 33%;
 }
 
 .tlac1 .button-76 {
-  position: absolute;
-  left: 71%;
-  top: 33%;
+position: absolute;
+left: 71%;
+top: 33%;
 }
 
 .tlac1 .button-77 {
-  position: absolute;
-  left: 84%;
-  top: 33%;
+position: absolute;
+left: 84%;
+top: 33%;
 }
 
 
@@ -231,55 +209,55 @@ button:hover span {
 /*Tlacitka-div-2*/
 
 .tlac2 {
-  border: 0px solid red;
-  position: absolute;
-  width: 900px;
-  height: 175px;
-  margin-top: 19.5%;
-  
+border: 0px solid red;
+position: absolute;
+width: 900px;
+height: 175px;
+margin-top: 19.5%;
+
 }
 
 .tlac2 .button-78 {
-  position: absolute;
-  left: 5%;
-  top: 33%;
+position: absolute;
+left: 5%;
+top: 33%;
 }
 
 
 .tlac2 .button-79 {
-  position: absolute;
-  left: 18%;
-  top: 33%;
+position: absolute;
+left: 18%;
+top: 33%;
 }
 
 .tlac2 .button-80 {
-  position: absolute;
-  left: 31%;
-  top: 33%;
+position: absolute;
+left: 31%;
+top: 33%;
 }
 
 .tlac2 .button-81 {
-  position: absolute;
-  left: 44%;
-  top: 33%;
+position: absolute;
+left: 44%;
+top: 33%;
 }
 
 .tlac2 .button-82 {
-  position: absolute;
-  left: 57%;
-  top: 33%;
+position: absolute;
+left: 57%;
+top: 33%;
 }
 
 .tlac2 .button-83 {
-  position: absolute;
-  left: 70%;
-  top: 33%;
+position: absolute;
+left: 70%;
+top: 33%;
 }
 
 .tlac2 .button-84 {
-  position: absolute;
-  left: 83%;
-  top: 33%;
+position: absolute;
+left: 83%;
+top: 33%;
 }
 
 
@@ -288,55 +266,55 @@ button:hover span {
 /*Tlacitka-div-3*/
 
 .tlac3 {
-  border: 0px solid rgb(160, 103, 103);
-  position: absolute;
-  width: 900px;
-  height: 175px;
-  margin-top: 39%;
-  
+border: 0px solid rgb(160, 103, 103);
+position: absolute;
+width: 900px;
+height: 175px;
+margin-top: 39%;
+
 }
 
 .tlac3 .button-85 {
-  position: absolute;
-  left: 5%;
-  top: 33%;
+position: absolute;
+left: 5%;
+top: 33%;
 }
 
 
 .tlac3 .button-86 {
-  position: absolute;
-  left: 18%;
-  top: 33%;
+position: absolute;
+left: 18%;
+top: 33%;
 }
 
 .tlac3 .button-87 {
-  position: absolute;
-  left: 31%;
-  top: 33%;
+position: absolute;
+left: 31%;
+top: 33%;
 }
 
 .tlac3 .button-88 {
-  position: absolute;
-  left: 44%;
-  top: 33%;
+position: absolute;
+left: 44%;
+top: 33%;
 }
 
 .tlac3 .button-89 {
-  position: absolute;
-  left: 57%;
-  top: 33%;
+position: absolute;
+left: 57%;
+top: 33%;
 }
 
 .tlac3 .button-90 {
-  position: absolute;
-  left: 70%;
-  top: 33%;
+position: absolute;
+left: 70%;
+top: 33%;
 }
 
 .tlac3 .button-91 {
-  position: absolute;
-  left: 83%;
-  top: 33%;
+position: absolute;
+left: 83%;
+top: 33%;
 }
 
 
@@ -347,127 +325,126 @@ button:hover span {
 /*Tlacitka-div-4*/
 
 .tlac4 {
-  border: 0px solid rgb(105, 134, 117);
-  position: absolute;
-  width: 900px;
-  height: 175px;
-  margin-top: 58.5%;
-  
+border: 0px solid rgb(105, 134, 117);
+position: absolute;
+width: 900px;
+height: 175px;
+margin-top: 58.5%;
+
 }
 
 .tlac4 .button-92 {
-  position: absolute;
-  left: 233px;
-  top: 33%;
+position: absolute;
+left: 233px;
+top: 33%;
 }
 
 
 .tlac4 .button-93 {
-  position: absolute;
-  left: 398px;
-  top: 33%;
+position: absolute;
+left: 398px;
+top: 33%;
 }
 
 .tlac4 .button-94 {
-  position: absolute;
-  right: 233px;
-  top: 33%;
+position: absolute;
+right: 233px;
+top: 33%;
 }
 
 
 .santa {
-  position: absolute;
-  top: 30%;
-  left: 0%;
-  height: 400px;
+position: absolute;
+top: 30%;
+left: 0%;
+height: 400px;
 }
 
 .santa1 {
-  position: absolute;
-  top: 30%;
-  right: 0%;
-  height: 400px;
-  transform: rotateY(150deg);  
+position: absolute;
+top: 30%;
+right: 0%;
+height: 400px;
+transform: rotateY(150deg);  
 }
 
 footer {
-  background: #e96443;  
-  background: -webkit-linear-gradient(to right, #904e95, #e96443);  
-  background: linear-gradient(to right, #904e95, #e96443); 
-  position: relative;
-  border: 0px solid;
-  height: 200px;
+background: #e96443;  
+background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+background: linear-gradient(to right, #904e95, #e96443); 
+position: relative;
+border: 0px solid;
+height: 200px;
 
 }
 
 .autor {
-  position: absolute;
-  font-size: 30px;
-  left: 37%;
-  top: 10%;
-  color: azure;
+position: absolute;
+font-size: 30px;
+left: 42%;
+top: 10%;
+color: azure;
 }
 
 .autor span {
-  font-size: 30px;
-  font-style: italic;
+font-size: 30px;
+font-style: italic;
 }
 
 .kontakt {
-  position: absolute;
-  font-size: 30px;
-  left: 37%;
-  top: 30%;
-  color: azure;
+position: absolute;
+font-size: 30px;
+left: 42%;
+top: 30%;
+color: azure;
 }
 
 footer ul li {
-  font-size: 20px;
-  color: azure;
-  position: absolute;
-  left: 49%;
-  top: 30%;
-  list-style: none;
+font-size: 20px;
+color: azure;
+position: absolute;
+left: 44%;
+top: 30%;
+list-style: none;
+}
+
+.tel {
+position: absolute;
+top: 34%;
+left: 49%;
+}
+
+.tel span {
+font-style: italic;
+}
+
+.email {
+position: absolute;
+top: 46%;
+left: 47.7%;
+
+}
+
+.email a {
+color: #c71c1c;
+transition: 0.5s all;
 }
 
 
+.email span {
+color: #c71c1c;
+font-style: italic;
+transition: 0.5s all;
+}
 
 
+.email span:hover {
+color: blue;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.email a:hover {
+color: blue;
+}
 
 
 
