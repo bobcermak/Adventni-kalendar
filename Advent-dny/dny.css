@@ -1,0 +1,254 @@
+body {
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+    background: linear-gradient(to right, #89253e, #3a6186); 
+  }
+  
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  
+  
+  
+  .nav-bar {
+    background: #e96443;  
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+    background: linear-gradient(to right, #904e95, #e96443); 
+    position: fixed;
+    border: 0px solid;
+    height: 130px;
+    width: 100%;
+    top: 0%;
+    z-index: 100;
+  }
+  
+  
+  .nav-bar h1 {
+    position: relative;
+    font-size: 50px;
+    color: azure;
+    left: 44.5%;
+    top: 9%;
+  }
+
+
+  .nav-bar menu li {
+    list-style: none;
+    
+  }
+
+
+  .home {
+    color: azure;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 1.3%;
+    left: 44.5%;
+    border: 0px solid;
+    transition: 0.5s all;
+
+  }
+
+  .home:hover {
+    transform: scale(1.2);
+  }
+
+  .den {
+    color: azure;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 1.3%;
+    left: 54.5%;
+    border: 0px solid;
+    transition: 0.5s all;
+    
+  }
+
+  .den:hover {
+    transform: scale(1.2);
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+  }
+
+
+
+  .fa-brands {
+    position: absolute;
+    font-size: 40px;
+    color: azure;
+  }
+  
+  .fa-github {
+    right: 13%;
+    top: 25%;
+    transition: 0.5s all;
+  }
+  
+  .fa-github:hover {
+    color: blue;
+  }
+  
+  .fa-instagram {
+    right: 10%;
+    top: 25%;
+    transition: 0.5s all;
+  }
+  
+  .fa-instagram:hover {
+    color: #B20D30;
+  }
+
+
+   article {
+    position: relative;
+    border: 0px solid;
+    height: 800px;
+    width: 900px;
+    margin-left: 28.5%;
+    margin-top: 12%;
+
+
+  }
+
+
+  img {
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    height: 600px;
+    border-radius: 30px;
+  }
+
+  article h2 {
+    position: absolute;
+    border: 0px solid;
+    height: 100px;
+    width: 650px;
+    color: azure;
+    font-style: italic;
+    margin-left: 14.5%;
+    padding: 35px;
+    padding-left: 40px;
+    margin-top: 2%;
+    border-radius: 20px;
+    background: #e96443;  
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+    background: linear-gradient(to right, #904e95, #e96443);  
+  }
+
+  footer {
+    background: #e96443;  
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+    background: linear-gradient(to right, #904e95, #e96443); 
+    position: relative;
+    border: 0px solid;
+    height: 200px;
+    
+    }
+    
+    .autor {
+    position: absolute;
+    font-size: 30px;
+    left: 42%;
+    top: 10%;
+    color: azure;
+    }
+    
+    .autor span {
+    font-size: 30px;
+    font-style: italic;
+    }
+    
+    .kontakt {
+    position: absolute;
+    font-size: 30px;
+    left: 42%;
+    top: 30%;
+    color: azure;
+    }
+    
+    footer ul li {
+      font-size: 20px;
+      color: azure;
+      position: absolute;
+      left: 44%;
+      top: 30%;
+      list-style: none;
+    }
+    
+    .tel {
+      position: absolute;
+      top: 34%;
+    }
+    
+    .email {
+      position: absolute;
+      top: 46%;
+    }
+    
+    .tel {
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    }
+    
+    .tel span {
+    font-style: italic;
+    }
+    
+    .email {
+    position: absolute;
+    top: 46%;
+    left: 47.7%;
+    
+    }
+    
+    .email a {
+    color: #c71c1c;
+    transition: 0.5s all;
+    }
+    
+    
+    .email span {
+    color: #c71c1c;
+    font-style: italic;
+    transition: 0.5s all;
+    }
+    
+    
+    .email span:hover {
+    color: blue;
+    }
+    
+    .email a:hover {
+    color: blue;
+    }
+
+
+    .cit {
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    font-size: 30px;
+    color: azure;
+    }
+
+
+    .cit span {
+        font-style: italic;
+    }
+
+    .cit a {
+        transition: 0.5s all;
+    }
+
+    .cit a:hover {
+        color: blue;
+    }
