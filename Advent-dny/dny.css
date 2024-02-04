@@ -108,13 +108,22 @@ body {
 
    article {
     position: relative;
-    border: 0px solid;
+    border: 2px solid;
     height: 800px;
     width: 900px;
     margin-left: 28.5%;
     margin-top: 12%;
 
 
+  }
+
+  .nad2 {
+    font-size: 35px;
+    padding-left: 196px;
+  }
+
+  .nad3 {
+    padding-left: 100px;
   }
 
 
@@ -124,6 +133,14 @@ body {
     top: 20%;
     height: 600px;
     border-radius: 30px;
+  }
+
+  .img2 {
+    left: 17%;
+  }
+
+  .img3 {
+    left: 24.5%;
   }
 
   article h2 {
