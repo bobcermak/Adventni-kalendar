@@ -108,7 +108,7 @@ body {
 
    article {
     position: relative;
-    border: 2px solid;
+    border: 0px solid;
     height: 800px;
     width: 900px;
     margin-left: 28.5%;
@@ -159,6 +159,47 @@ body {
     font-size: 30px;
     padding-left: 65px;
   }
+
+  .nad11 {
+    font-size: 17px;
+    padding-left: 30px;
+  }
+
+  .nad12 {
+    font-size: 17px;
+    padding-left: 40px;
+  }
+
+  .nad13 {
+    font-size: 17px;
+    padding-left: 55px;
+  }
+
+  .nad14 {
+    font-size: 17px;
+    padding-left: 40px;
+  }
+
+  .nad15 {
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 25px;
+  }
+
+  .nad16 {
+    font-size: 22px;
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  .nad17 {
+    padding-top: 25px;
+  }
+
+  .nad18 {
+    padding-left: 80px;
+  }
+
 
 
   img {
@@ -215,6 +256,40 @@ body {
     height: 300px;
     left: 21%;
   }
+
+  .img12 {
+    height: 300px;
+    left: 20%;
+  }
+
+  .img13 {
+    height: 300px;
+    left: 21%;
+  }
+
+  .img14 {
+    left: 17%;
+  }
+
+  .img15 {
+    left: 27%;
+  }
+
+  .img16 {
+    height: 300px;
+  }
+
+  .img17 {
+    height: 300px;
+    left: 21%;
+  }
+
+  .img18 {
+    height: 300px;
+    left: 21%;
+  }
+
+  
 
   article h2 {
     position: absolute;
@@ -301,26 +376,20 @@ body {
     }
     
     .email a {
-    color: #c71c1c;
+    color: blue;
     transition: 0.5s all;
-    }
-    
-    
-    .email span {
-    color: #c71c1c;
     font-style: italic;
-    transition: 0.5s all;
-    }
-    
-    
-    .email span:hover {
-    color: blue;
-    }
-    
-    .email a:hover {
-    color: blue;
+    text-decoration: none;
     }
 
+    .email a:hover {
+      text-decoration:  underline;
+    }
+
+    .email a:visited {
+      color: purple;
+    }
+  
 
     .cit {
     position: absolute;
@@ -331,14 +400,18 @@ body {
     }
 
 
-    .cit span {
-        font-style: italic;
-    }
-
     .cit a {
-        transition: 0.5s all;
+      color: blue;
+      transition: 0.5s all;
+      font-style: italic;
+      text-decoration: none;
     }
 
     .cit a:hover {
-        color: blue;
+        text-decoration: underline;
+    }
+
+
+    .cit a:visited {
+      color: purple;
     }

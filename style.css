@@ -431,25 +431,24 @@ left: 47.7%;
 }
 
 .email a {
-color: #c71c1c;
-transition: 0.5s all;
-}
-
-
-.email span {
-color: #c71c1c;
+color: blue;
 font-style: italic;
 transition: 0.5s all;
+text-decoration: none;
 }
 
-
-.email span:hover {
-color: blue;
-}
 
 .email a:hover {
-color: blue;
+  text-decoration: underline;
 }
+
+.email a:visited {
+  color: purple;
+}
+
+
+
+
 
 
 
