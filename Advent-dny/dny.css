@@ -54,6 +54,11 @@ body {
 
   }
 
+
+  #hom1 {
+    left: 49%;
+  }
+
   .home:hover {
     transform: scale(1.2);
   }
@@ -108,7 +113,7 @@ body {
 
    article {
     position: relative;
-    border: 2px solid;
+    border: 0px solid;
     height: 800px;
     width: 900px;
     margin-left: 28.5%;
@@ -202,7 +207,29 @@ body {
 
   .nad19 {
     font-size: 26px;
+    padding-top: 35px;
+  }
+
+  .nad20 {
     padding-top: 20px;
+  }
+
+  .nad21 {
+    padding-left: 60px;
+  }
+
+  .nad22 {
+    padding-left: 200px;
+    font-size: 30px;
+  }
+
+  .nad23 {
+    padding-left: 50px;
+  }
+
+  .nad24 {
+    font-size: 20px;
+    padding-left: 35px;
   }
 
 
@@ -297,6 +324,28 @@ body {
   .img19 {
     height: 300px;
     left: 21%;
+  }
+
+  .img20 {
+    height: 300px;
+  }
+
+  .img21 {
+    height: 300px;
+    left: 19%;
+  }
+
+  .img22 {
+    left: 16%;
+  }
+
+  .img23 {
+    height: 300px;
+    left: 19%;
+  }
+
+  .img24 {
+    height: 300px;
   }
 
   
@@ -425,3 +474,31 @@ body {
     .cit a:visited {
       color: purple;
     }
+
+
+    .cit2 {
+      position: absolute;
+      top: 75%;
+      left: 43%;
+      font-size: 30px;
+      color: azure;
+      }
+  
+  
+      .cit2 a {
+        color: blue;
+        transition: 0.5s all;
+        font-style: italic;
+        text-decoration: none;
+      }
+  
+      .cit2 a:hover {
+          text-decoration: underline;
+      }
+  
+  
+      .cit2 a:visited {
+        color: purple;
+      }
+  
+  
